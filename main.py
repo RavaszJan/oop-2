@@ -91,5 +91,26 @@ kniha.price=20
 print(kniha.price)
 kniha.price=-10
 
+class Kniha:
+    def __init__(selfself,nazov,isbn):
+        self.nazov=nazov
+        self.isbn=isbn
+        self.dostupna=True
+
+    def vypozicaj(selfself):
+        self.dostupna=False
+
+    class Kniznica:
+        def __init__(selfself):
+            self.zoznam_knih=[]
+        def pridaj_knihu(selfself,kniha):
+            self.zoznam_knih.append(kniha)
+
+        def pozica_knihu(selfself,isbn_knihy):
+            for k
+
+
+
+
 
 
